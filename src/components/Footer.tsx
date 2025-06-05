@@ -44,10 +44,10 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact */}
+          {/* Contact & Social */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
-            <div className="space-y-3 text-forest-200">
+            <div className="space-y-3 text-forest-200 mb-6">
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-coral-400" />
                 <span>richardndunda26@gmail.com</span>
@@ -59,6 +59,25 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <MapPin className="w-4 h-4 text-coral-400" />
                 <span>Nairobi, Kenya</span>
+              </div>
+            </div>
+            
+            {/* Social Media */}
+            <div>
+              <h4 className="text-sm font-semibold mb-3 text-forest-100">Follow Us</h4>
+              <div className="space-y-2 text-forest-200 text-sm">
+                <div className="flex items-center space-x-2">
+                  <span>TikTok:</span>
+                  <a href="https://tiktok.com/@ecodesignstudio" className="hover:text-coral-400 transition-colors">@ecodesignstudio</a>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <span>Facebook:</span>
+                  <a href="https://facebook.com/ecodesignstudio" className="hover:text-coral-400 transition-colors">@ecodesignstudio</a>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <span>Instagram:</span>
+                  <a href="https://instagram.com/ecodesignstudio" className="hover:text-coral-400 transition-colors">@ecodesignstudio</a>
+                </div>
               </div>
             </div>
           </div>
