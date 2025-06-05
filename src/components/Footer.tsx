@@ -50,15 +50,15 @@ const Footer = () => {
             <div className="space-y-3 text-forest-200">
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-coral-400" />
-                <span>hello@ecodesign.studio</span>
+                <span>richardndunda26@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-coral-400" />
-                <span>+1 (555) 123-4567</span>
+                <span>+254718953127</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-4 h-4 text-coral-400" />
-                <span>San Francisco, CA</span>
+                <span>Nairobi, Kenya</span>
               </div>
             </div>
           </div>
