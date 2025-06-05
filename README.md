@@ -1,5 +1,7 @@
 # Welcome to your Lovable project
 
+## Project website link
+https://preview--echo-design-genesis.lovable.app/
 ## Project info
 
 **URL**: https://lovable.dev/projects/049dacdf-9390-47d3-97d9-c1863b4d17cb
