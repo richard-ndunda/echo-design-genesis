@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,43 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom EcoDesign color palette
+				forest: {
+					50: '#f0f9f3',
+					100: '#dcf2e3',
+					200: '#bce4cb',
+					300: '#8dd0a8',
+					400: '#57b47d',
+					500: '#34996b',
+					600: '#267a4f',
+					700: '#206242',
+					800: '#1d4f37',
+					900: '#19412f',
+				},
+				coral: {
+					50: '#fef7f3',
+					100: '#fdede5',
+					200: '#fbd8ca',
+					300: '#f7bba3',
+					400: '#f29371',
+					500: '#ed6a47',
+					600: '#dc4e2a',
+					700: '#b73e20',
+					800: '#94341e',
+					900: '#792f1d',
+				},
+				cream: {
+					50: '#fefef9',
+					100: '#fffef0',
+					200: '#fffde0',
+					300: '#fffac4',
+					400: '#fff49d',
+					500: '#ffec6b',
+					600: '#f0d943',
+					700: '#d4bf2a',
+					800: '#b39720',
+					900: '#957a1d',
 				}
 			},
 			borderRadius: {
@@ -84,11 +122,33 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'scale-in': {
+					'0%': {
+						transform: 'scale(0.95)',
+						opacity: '0'
+					},
+					'100%': {
+						transform: 'scale(1)',
+						opacity: '1'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.6s ease-out',
+				'scale-in': 'scale-in 0.4s ease-out'
 			}
 		}
 	},
