@@ -1,5 +1,5 @@
 
-import { Leaf, Mail, MapPin, Phone } from 'lucide-react';
+import { Leaf, Mail, MapPin, Phone, Facebook, Instagram } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -67,15 +67,24 @@ const Footer = () => {
               <h4 className="text-sm font-semibold mb-3 text-forest-100">Follow Us</h4>
               <div className="space-y-2 text-forest-200 text-sm">
                 <div className="flex items-center space-x-2">
-                  <span>TikTok:</span>
+                  <div className="flex items-center space-x-1">
+                    <span>📱</span>
+                    <span>TikTok:</span>
+                  </div>
                   <a href="https://tiktok.com/@ecodesignstudio" className="hover:text-coral-400 transition-colors">@ecodesignstudio</a>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span>Facebook:</span>
+                  <div className="flex items-center space-x-1">
+                    <Facebook className="w-3 h-3 text-coral-400" />
+                    <span>Facebook:</span>
+                  </div>
                   <a href="https://facebook.com/ecodesignstudio" className="hover:text-coral-400 transition-colors">@ecodesignstudio</a>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span>Instagram:</span>
+                  <div className="flex items-center space-x-1">
+                    <Instagram className="w-3 h-3 text-coral-400" />
+                    <span>Instagram:</span>
+                  </div>
                   <a href="https://instagram.com/ecodesignstudio" className="hover:text-coral-400 transition-colors">@ecodesignstudio</a>
                 </div>
               </div>
